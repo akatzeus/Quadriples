@@ -1,0 +1,43 @@
+/* General styles for the web page */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f5f5f5;
+  color: #333;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  
+}
+
+.container {
+  background-color: #ffffff;
+  border: 1px solid #ddd;
+  border-radius: 100px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  text-align: center;
+  width: 90%;
+  max-width: 400px;
+}
+
+h1 {
+  color: #444;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.reading {
+  font-size: 1.5em;
+  margin: 20px 0;
+}
+
+#ppm {
+  font-size: 2em;
+  font-weight: bold;
+  color: #007BFF;
+  font-weight: 200;
+  font-style: sans-serif;
+}
