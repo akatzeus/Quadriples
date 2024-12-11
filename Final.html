@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Map with Points and Routes</title>
+    <link rel="stylesheet" href="Style.css">
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.4/dist/leaflet.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.4/dist/leaflet.css"/>
+    <script src="https://unpkg.com/leaflet-routing-machine@3.2.12/dist/leaflet-routing-machine.js"></script>
+</head>
+<body>
+    <div class="nav">
+        <button class="nbtn"><a href="https://io.adafruit.com/Kushal_s13/dashboards/logging">AQI</a></button>
+        <button class="nbtn"><a href="file:///F:/CODE/WEB%20DEV/JS/data_gen.html">REAL_TIME</a></button>
+        <h1 id="aqi-value">Smart-Router</h1>
+    </div>
+    <div class="Mmain">
+        <div class="side">
+            <div class="from">
+                <label for="pointA"><b>FROM:</b></label>
+                <input type="text" placeholder="Enter Start point(1-6)" id="pointA">
+            </div>
+            <div class="to">
+                <label for="pointB"><b>DEST:</b></label>
+                <input type="text" placeholder="Enter Destination(1-6)" id="pointB">
+            </div>
+        </div>
+        <div class="main">
+            <button id="routeAB" class="mbtn">Directions</button>
+            <button id="reroute" class="mbtn">Reroute</button>
+        </div>
+        <div id="map"></div>
+    </div>
+    <script src="app.js"> </script>
+</body>
+</html>
