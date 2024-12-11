@@ -1,0 +1,125 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: beige;
+    height: 100vh;
+}
+
+.main{
+    display: flex;
+    width: 30%;
+    padding: 0.5em;
+}
+
+.side{
+    display: flex;
+    padding: 1rem;
+}
+
+ .mbtn{
+    position: relative;
+    top: 31rem;
+    height: 60px;
+    width: 175px;
+    background-color:lightskyblue;
+    color: black;
+    border: 3px solid black;
+    border-radius: 15px;
+    padding: 0.5em 1em;
+    margin: 0 0.5em;
+    cursor: pointer;
+    font-size: 1.25rem;
+}
+#routeAB{
+    margin-left: 1rem;
+}
+#reroute{
+    margin-left: 2.6rem;
+}
+
+
+.from{
+    position: relative;
+    top:10rem;
+    right: 1rem;
+    font-size: 1.5rem;
+}
+
+.to{
+    position: relative;
+    top:20rem;
+    font-size: 1.5rem;
+    right: 25rem;
+}
+
+input{
+    font-size: 1.5rem;
+    background-color: lightcyan;
+    color: black;
+}
+
+#pointB{
+    margin-left: 0.5rem;
+}
+
+#map {
+    height: 84vh;
+    width: 70%;
+    margin-left: 29.5%; 
+    margin-top: -4.3rem;
+    border: 2.5px solid black;
+    border-radius: 20px;
+}
+
+.mbtn:hover{
+    background-color: #333;
+    color: white;
+}
+
+::placeholder {
+    color: black;
+    opacity: 1;
+  }
+
+  .nav{
+    align-items: center;
+    display: flex;
+    width: 100%;
+    height: 100px;
+    background-color:#232323;
+  }
+
+  .nbtn{
+    height: 60px;
+    width: 150px;
+    background-color:beige;
+    color: black;
+    border: 3px solid black;
+    border-radius: 15px;
+    padding: 0.5em 1em;
+    margin: 1rem;
+    cursor: pointer;
+    font-size: 1.25rem;
+    z-index: 2;
+  }
+
+  .nbtn:hover{
+    background-color: #333;
+    color: white;
+  }
+
+  h1{
+    font-size: 2.5rem;
+    color: beige;
+    margin-left: 19rem;
+  }
+
+  .Mmain{
+    position: relative;
+    top:-4rem;
+  }
+  
+  a{
+    text-decoration: none;
+    color: black;
+  }
